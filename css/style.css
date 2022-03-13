@@ -70,7 +70,7 @@ header nav ul li a{
     transition: all 2s;
 }
 .text-animacion:hover{
-    transform: skewY(50deg);
+    transform: skew(25deg);
 }
 
 
