@@ -44,6 +44,37 @@ header nav ul li a{
     text-decoration: none;
     font-size: 18px;
 }
+
+/* Animación de link*/
+.escala-link{
+    transition: all 0.1s;
+}
+.escala-link:hover{
+    transform: scale(1.08);
+    text-shadow: 1px;
+}
+/*Animacion de imagen*/
+.img-animacion{
+    transition: all 1s;
+}
+.img-animacion:hover{
+    transform: translate(5px, 5px);    
+}
+.img-rota{
+    transition: all 2s;
+}
+.img-rota:hover{
+    transform: rotateZ(360deg);
+}
+.text-animacion{
+    transition: all 2s;
+}
+.text-animacion:hover{
+    transform: skewY(50deg);
+}
+
+
+
     /*CSS_main   Grid para main*/
 main{
     grid-area: main;
